@@ -3,7 +3,7 @@
 # Thoát ngay lập tức nếu có lệnh nào thất bại
 set -e
 
-FLUTTER_VERSION="3.32.2" 
+FLUTTER_VERSION="3.35.7" 
 
 # 1. Cài đặt Flutter SDK
 echo ">>>> Cloning Flutter repository for version $FLUTTER_VERSION..."
