@@ -3,11 +3,11 @@
 # Thoát ngay lập tức nếu có lệnh nào thất bại
 set -e
 
-FLUTTER_VERSION="3.32.7" 
+FLUTTER_VERSION="3.32.2" 
 
 # 1. Cài đặt Flutter SDK
 echo ">>>> Cloning Flutter repository for version $FLUTTER_VERSION..."
-git clone https://github.com/flutter/flutter.git --branch $FLUTTER_VERSION
+git clone https://github.com/flutter/flutter.git --branch $FLUTTER_VERSION --depth 1
 export PATH="$PATH:`pwd`/flutter/bin"
 
 # 2. Kiểm tra phiên bản Flutter (để xác nhận trong log)
